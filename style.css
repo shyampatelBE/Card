@@ -1,0 +1,343 @@
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-color-scheme: light) {
+
+
+	body{
+	background-color: #43525a;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+}
+.main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 2%;
+	height: 90vh;
+	width: 35vh;
+	overflow: hidden;
+}
+.main .img{
+	height: 35%;
+	width: 100%;
+}
+.main .img img{
+	height: 100%;
+	width: 100%;
+}
+.main .details{
+	
+	height: 55%;
+	width: 100%;
+											background-color:whitesmoke;
+}
+.name{
+	height: 20%;
+	width: 100%;
+	padding-top: 3vh;
+	text-align: center;
+}
+.name .name1{
+	font-size: 3.5vh;
+											color: black;
+	font-weight: 700;
+
+
+}
+.name .name2{
+	font-size: 1.8vh;
+											color: #FE6D4D;
+	font-weight: 400;
+
+
+}
+.name .name3{
+	font-size: 1.4vh;
+											color: black;
+	
+
+
+}
+.button{
+	margin-top: 1vh;
+	text-align: center;
+	padding: 0vh 2.5vh 0vh 2.5vh;
+}
+.button a{cursor: pointer;}
+.btn1 
+{
+											border: 1px solid black;
+	
+	font-size: 2vh;
+	width: 14vh;
+	color: black;
+	background-color: whitesmoke;
+	line-height: 5vh;
+	padding: 0vh 2.0vh 0vh 2.0vh;
+	border-radius: 9px;
+}
+.btn1 i{
+	padding-right: 1vh;
+}
+.btn2
+{
+	
+	border: none;
+	font-size: 2vh;
+	width: 14vh;
+	color: whitesmoke;
+	background-color: #5093E2;
+	line-height: 5vh;
+	padding: 0vh 1.0vh 0vh 1.0vh;
+	border-radius: 9px;
+}
+.btn2 i{
+	padding-right: 1vh;
+}
+.info
+{
+											color: black;
+	margin-top: 3vh;
+	padding: 0vh 2.5vh 0vh 2.5vh;
+	margin-bottom: 1vh;
+
+}
+.about
+{
+	font-size: 2vh;
+	font-weight: 700;
+	margin:0vh 0vh 1vh 0vh;
+
+
+
+}
+.aboutinfo
+{
+	font-size: 1.5vh;
+	font-weight: 400;
+	margin:0vh 0vh 1vh 0vh;
+
+}
+.Interest
+{
+	font-size: 2vh;
+	font-weight: 700;
+	margin:3vh 0vh 1vh 0vh;
+}
+.Interestinfo
+{
+	font-size: 1.5vh;
+		font-weight: 400;
+	margin:0vh 0vh 1vh 0vh;
+
+}
+.main .social{
+	text-align: center;
+	height: 9.5%;
+											background-color: #BABABA;
+}
+.social .socialicons{
+	line-height: 8.5vh;
+	font-size: 4vh;
+
+}
+.socialicons a{
+											color: #000;
+
+}
+.social .socialicons font:nth-child(1), .social .socialicons font:nth-child(2), .social .socialicons font:nth-child(3) {
+	padding-right: 15px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-color-scheme: dark) {
+
+
+
+
+
+body{
+	background-color: #43525a;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+}
+.main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 2%;
+	height: 90vh;
+	width: 35vh;
+	overflow: hidden;
+}
+.main .img{
+	height: 35%;
+	width: 100%;
+}
+.main .img img{
+	height: 100%;
+	width: 100%;
+}
+.main .details{
+	height: 55%;
+	width: 100%;
+	background-color: #1A1B21;
+}
+.name{
+	height: 20%;
+	width: 100%;
+	padding-top: 3vh;
+	text-align: center;
+}
+.name .name1{
+	font-size: 3.5vh;
+	color: ghostwhite;
+	font-weight: 700;
+
+
+}
+.name .name2{
+	font-size: 1.8vh;
+	color: #F3BF99;
+	font-weight: 400;
+
+
+}
+.name .name3{
+	font-size: 1.4vh;
+	color: #F5F5F5;;
+	
+
+
+}
+.button{
+	margin-top: 1vh;
+	text-align: center;
+	padding: 0vh 2.5vh 0vh 2.5vh;
+}
+
+.btn1 
+{
+	border: none;
+	font-size: 2vh;
+	width: 14vh;
+	color: black;
+	background-color: whitesmoke;
+	line-height: 5vh;
+	padding: 0vh 2.0vh 0vh 2.0vh;
+	border-radius: 9px;
+}
+.btn1 i{
+	padding-right: 1vh;
+}
+.btn2
+{
+	border: none;
+	font-size: 2vh;
+	width: 14vh;
+	color: whitesmoke;
+	background-color: #5093E2;
+	line-height: 5vh;
+	padding: 0vh 1.0vh 0vh 1.0vh;
+	border-radius: 9px;
+}
+.btn2 i{
+	padding-right: 1vh;
+}
+.info
+{
+	color: #F5F5F5;
+	margin-top: 3vh;
+	padding: 0vh 2.5vh 0vh 2.5vh;
+	margin-bottom: 1vh;
+
+}
+.about
+{
+	font-size: 2vh;
+	font-weight: 700;
+	margin:0vh 0vh 1vh 0vh;
+
+
+
+}
+.aboutinfo
+{
+	font-size: 1.5vh;
+	font-weight: 400;
+	margin:0vh 0vh 1vh 0vh;
+
+}
+.Interest
+{
+	font-size: 2vh;
+	font-weight: 700;
+	margin:3vh 0vh 1vh 0vh;
+}
+.Interestinfo
+{
+	font-size: 1.5vh;
+	font-weight: 400;
+	margin:0vh 0vh 1vh 0vh;
+
+}
+.main .social{
+	text-align: center;
+	height: 9.5%;
+	background-color: #161619;
+	color: #918E9B;
+}
+.social .socialicons{
+	line-height: 8.5vh;
+	font-size: 4vh;
+
+}
+.socialicons a{
+	color: #918E9B;
+
+}
+.social .socialicons font:nth-child(1), .social .socialicons font:nth-child(2), .social .socialicons font:nth-child(3) {
+	padding-right: 15px;
+}
+}
